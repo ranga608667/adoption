@@ -24,6 +24,7 @@ public class ApiTests {
     PupperService service;
 
     @Test
+    // Get call test
     void getAllPuppers() throws Exception {
         List<Pupper> puppers = new ArrayList<Pupper>();
         puppers.add(new Pupper("Spot", "Dalmation"));
